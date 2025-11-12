@@ -1,0 +1,32 @@
+# Unreal Engine build folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Editor-generated files
+*.sln
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Engine/project cache
+.vs/
+.DS_Store
+Thumbs.db
+Backup/
+Autosaves/
+*.log
+
+# Plugin build outputs
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Optional: ignore Rider/CLion/VSCode configs if ever added
+.idea/
+.vscode/
